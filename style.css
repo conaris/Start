@@ -11,9 +11,9 @@
 /*STYLES*/
 
 .secondary h1{background-color: grey;}
-.secondary p{color: orange;}
+
 .line{color: red;background-color: yellow;font-size: 1.7em;}
-.punk{color: redk;background-color: black;font-size: 2em;}
+.punk{color: red;background-color: black;font-size: 2em;}
 
 /*IMAGE STYLE*/
 .primary img{max-width: 100%;}
