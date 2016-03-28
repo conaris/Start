@@ -1,0 +1,19 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+
+
+/*FLEX*/
+
+.container{display: flex;justify-content: center;flex-wrap: wrap;margin: 0 auto;}
+.primary{display: flex;justify-content: center;background-color: white;width:30%;margin: 0 auto;height: auto;}
+.secondary{text-align: center;display: flex;flex-direction: column;justify-content: center;background-color: grey;width:30%;margin:0 auto;height:auto;}
+
+
+/*STYLES*/
+
+.secondary h1{background-color: grey;}
+.secondary p{color: orange;}
+.line{color: red;background-color: yellow;font-size: 1.7em;}
+.punk{color: redk;background-color: black;font-size: 2em;}
+
+/*IMAGE STYLE*/
+.primary img{max-width: 100%;}
