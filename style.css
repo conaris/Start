@@ -1,19 +1,64 @@
-*{padding: 0;margin: 0;box-sizing: border-box;}
+/*GLOBAL STYLES*/
 
+*{padding: 0;margin: 0;box-sizing: border-box;}
+ul{list-style: none;}
+a{text-decoration: none;}
 
 /*FLEX*/
 
-.container{display: flex;justify-content: center;flex-wrap: wrap;margin: 0 auto;}
-.primary{display: flex;justify-content: center;background-color: white;width:30%;margin: 0 auto;height: auto;}
-.secondary{text-align: center;display: flex;flex-direction: column;justify-content: center;background-color: grey;width:30%;margin:0 auto;height:auto;}
-
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto}
+.primary{display: flex;
+  justify-content: center
+  ;background-color: white;
+  width:80%;
+  margin: 0 auto;
+  height: auto;
+  order:1;
+  margin-bottom: 5%;}
+.secondary{text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: grey;
+  width:80%;
+  margin:0 auto;
+  height:auto;
+  order:3;}
+  .flex-nav{display: flex;}
+  .flex-nav ul{display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin:0 auto;
+    text-align: center;
+    width:100%;}
+  .flex-nav li{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-flex:1;
+    -webkit-flex:auto;
+    -ms-flex:auto;
+    flex:auto;}
+  .flex-nav a{-webkit-flex-basis: 100%;-ms-flex-preferred-size: 100%;flex-basis: 100%;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;font-size:1.5em;cursor: pointer;}
+  .flex-nav span{display: block;width:100%;}
 
 /*STYLES*/
 
-.secondary h1{background-color: grey;}
+.secondary h1{background-color: green;}
 
-.line{color: red;background-color: yellow;font-size: 1.7em;}
-.punk{color: red;background-color: black;font-size: 2em;}
+.line{color: red;
+  background-color: yellow;
+  font-size: 1.7em;}
+.punk{color: red;
+  background-color: black;
+  font-size: 2em;}
 
 /*IMAGE STYLE*/
 .primary img{max-width: 100%;}
